@@ -6,8 +6,7 @@ const initialState = {
   navStyle:{backgroundColor:'#ff585b', color:'#fff', padding:20},
   userDeets: {
   	email:"s.okoro07@gmail.com",
-
-}
+  }
 }
 
 export function tinder(state = initialState, action = {}) {
@@ -15,8 +14,6 @@ export function tinder(state = initialState, action = {}) {
    case types.LOGIN:
 
 return {...state, };
-
-
 
 default:
 return state;
